@@ -1,5 +1,5 @@
 # Entropy
-Experimenting with entropy and information theory.
+Experimenting with entropy and information theory.  
 Reference: https://en.wikipedia.org/wiki/Entropy
 
 ## Shannon Entropy (H):
