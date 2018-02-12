@@ -1,7 +1,14 @@
 import math
+import random
 
 bmp = open("low.bmp", "rb")
 jpg = open("high.jpg", "rb")
+
+def rand_str(size):
+    string = ""
+    for i in range(0, size):
+        string += chr(random.randint(0, 256))
+    return string
 
 # Shannon Entropy (H):
 # H = - sum_i(p_i * log_b(p_i))
@@ -26,8 +33,9 @@ def entropy(text):
         H += p_i * log_b(256, p_i)
     return -H
 
-print("\nCompare Shannon Entropy (H) of .bmp and .jpg files")
-print("Expected Result: H_bmp < H_jpg\n")
+print("\nCompare Shannon Entropy (H) of .bmp, .jpg, and random files")
+print("Expected Result: H_bmp < H_jpg < H_random\n")
 print("Entropy for .bmp file: " + str(entropy(bmp.read())))
 print("Entropy for .jpg file: " + str(entropy(jpg.read())))
+print("Entropy for random text: " + str(entropy(rand_str(10000))))
 print()
