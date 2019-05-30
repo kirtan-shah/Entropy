@@ -4,7 +4,7 @@ To Run:
 rd.bat
 ```
 Result: <br>
-300-D word vectors are reduced to graphically representable 2-D vectors.
+300-D word vectors are reduced to graphically representable 2-D vectors. <br>
 <img src="words.gif" width="350px"/>
 
 
