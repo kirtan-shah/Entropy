@@ -4,7 +4,8 @@ To Run:
 rd.bat
 ```
 Result:
-![](words.gif)
+![](words.gif | width=500)
+
 300-D word vectors are reduced to graphically representable 2-D vectors.
 
 # Entropy
