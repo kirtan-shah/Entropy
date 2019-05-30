@@ -1,3 +1,12 @@
+# Reduce Dimensionality of High Dimensional Vectors
+To Run:
+```
+rd.bat
+```
+Result:
+![](words.png)
+300-D word vectors are reduced to graphically representable 2-D vectors.
+
 # Entropy
 Experimenting with entropy and information theory.  
 Reference: https://en.wikipedia.org/wiki/Entropy
